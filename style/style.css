@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, .body, h1, h2, h3, h4, h5, h6, p{
+    font-family: "Roboto", sans-serif;
+}
+div{
+    display: block;
+}
+.nome{
+    position: relative;
+    top: -56px;
+    margin: -9px 17px;
+    color: #009688!important;
+}
+body{
+    background-color: #f1f1f1!important;
+    color: black;
+    font-size: 15px;
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    display: table;
+    padding: 0 8px;
+    margin: 3px 12px;
+}
+.layer{
+    display: block;
+    float: left;
+    width: 33.33333%;
+    background-color: white; 
+    color: #757575!important;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+.layer-2{
+    float: right;
+    width: 66%;
+    margin-top: 15px;
+    margin-right: -7px;
+}
+img{
+    width: 100%;
+    height: 285px;
+}
+.contato{
+    padding: 0.01em 16px;
+    margin-top: -22px;
+}
+.barra{
+    background-color: #f1f1f1!important;
+}
+.barra-porcentagem{
+    color: #fff!important;
+    background-color: #009688!important;
+    text-align: center;
+    font-size: 12px;
+}
+.Adobe-Photoshop{
+    width: 90%;
+}
+.barra, .barra-porcentagem{
+    border-radius: 16px;
+}
+.barra-porcentagem-Photography{
+    width: 80%;
+}
+.barra-porcentagem-Illustrator{
+    width: 75%;
+}
+.barra-porcentagem-Media{
+    width: 50%;
+}
+.porcentagem-linguagens-English{
+    height: 24px;
+}
+.porcentagem-linguagens-Spanish{
+    height: 24px;
+    width: 55%;
+}
+.porcentagem-linguagens-German{
+    height: 24px;
+    width: 25%;
+}
+.work-Experience{
+    background-color: white;
+    padding: 0.01em 16px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.rodape{
+    clear: both;
+    background-color: #009688!important;
+    margin-top: 16px!important;
+    text-align: center!important;
+    color: white;
+    line-height: 2.5;
+}
+.education{
+    background-color: white;
+    padding: 0.01em 16px;
+    margin-top: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.titulos-contato{
+    font-size: 18px!important;
+}
+b{
+    font-size: 18px;
+    color: #757575!important;
+}
+h2{
+    color: #757575!important;
+}
+h6{
+    color: #009688!important;   
+}
+.layer,p{
+    margin: 15px 0;
+}
+.artefato{
+    margin: 12px 23px;
+    margin: 36px 15px;
+}
