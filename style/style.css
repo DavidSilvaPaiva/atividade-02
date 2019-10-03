@@ -236,10 +236,11 @@ span {
     .container {
         flex-direction: column;
         display: flex;
-        width: 100%;
+        width: 89%;
         margin: auto;
         padding: auto;
         box-sizing: inherit;
+        margin-top: 15px;
     }
 
     .layer {
@@ -250,8 +251,8 @@ span {
 
     .layer-1 {
         box-sizing: inherit;
-        margin: 16px 32px;
-        margin-left: 10px;
+        margin: auto;
+        width: 100%;
     }
 
     .layer-2 {
