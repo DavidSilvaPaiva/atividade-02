@@ -5,12 +5,16 @@
 html, .body, h1, h2, h3, h4, h5, h6, p{
     font-family: "Roboto", sans-serif;
 }
+html, body{
+    font-size: 15px;
+    line-height: 1.5;
+}
 div{
     display: block;
 }
 .nome{
     position: relative;
-    top: -56px;
+    top: -67px;
     margin: -9px 17px;
     color: #009688!important;
 }
@@ -32,7 +36,7 @@ body{
     width: 33.33333%;
     background-color: white; 
     color: #757575!important;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }  
 .layer-2{
     float: right;
@@ -46,7 +50,7 @@ img{
 }
 .contato{
     padding: 0.01em 16px;
-    margin-top: -22px;
+    margin-top: -59px;
 }
 .barra{
     background-color: #f1f1f1!important;
@@ -86,7 +90,7 @@ img{
 .work-Experience{
     background-color: white;
     padding: 0.01em 16px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .rodape{
     clear: both;
@@ -100,20 +104,27 @@ img{
     background-color: white;
     padding: 0.01em 16px;
     margin-top: 16px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .titulos-contato{
     font-size: 18px!important;
 }
 b{
     font-size: 18px;
-    color: #757575!important;
+    color: black;
+    opacity: 0.60;
 }
 h2{
     color: #757575!important;
+    padding-top: 16px!important;
+    font-size: 31px;
+}
+h5{
+    font-size: 18px;
 }
 h6{
-    color: #009688!important;   
+    color: #009688!important;  
+    font-size: 16px; 
 }
 .layer,p{
     margin: 15px 0;
@@ -121,4 +132,46 @@ h6{
 .artefato{
     margin: 12px 23px;
     margin: 36px 15px;
+}
+.artefato-2{
+    margin: 0;
+}
+.icones{
+    color: #009688!important;
+    width: 1.28571429em;
+    text-align: center;
+    margin: 0px 16px 0px 0px;
+    margin-right: 16px!important;
+}
+.icones-titulos{
+    font-size: 36px!important;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+.subtitulos{
+
+}
+span{
+    background-color: #009688!important;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.icones-layer{
+    font-size: 18px!important;
+}
+@media(max-width:60px){
+    .layer-2{
+        vertical-align: middle;
+    }
 }
